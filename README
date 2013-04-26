@@ -1,5 +1,12 @@
-In order to protect the 'innocent' I have changed some aspects of this project which need to be 
-changed/reconfigured before you successfully pull data from your exchange server.
+/* EWSWrapper README file
+ * ====================================================
+ * @author Joseph Munowenyu <shumba.kwayo@gmail.com>
+ * @version 1.0
+ * @date 04-2013
+ * ==================================================*/
+
+I have changed some aspects of this project which need to be changed/reconfigured before you successfully pull data from your exchange server.
+
 
 1.
 $_SESSION['loginaccount']  = 'yourprivilegedaccount';
