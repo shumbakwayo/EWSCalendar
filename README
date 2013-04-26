@@ -1,2 +1,23 @@
-In order to protect the 'innocent' I have changed some aspects of this project which need to be changed/reconfigured before you successfully pull data
-from your exchange server.
+In order to protect the 'innocent' I have changed some aspects of this project which need to be 
+changed/reconfigured before you successfully pull data from your exchange server.
+
+1.
+$_SESSION['loginaccount']  = 'yourprivilegedaccount';
+$_SESSION['loginpassword'] = 'yourprivilegedaccountpassword';
+
+2.
+@domain.name
+
+3.
+https://yourserver/EWS/Exchange.asmx
+
+Search for all instances of the above and replace them.
+
+--------------------------------------------------------------------
+
+
+The file to run in order to get your data back is getCal.php viz:
+
+./getCal.php user.name "startdate" "enddate"
+
+e.g. ./getCal.php john.doe "2013-04-01" "2013-05-31"
