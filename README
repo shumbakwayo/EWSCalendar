@@ -21,3 +21,8 @@ The file to run in order to get your data back is getCal.php viz:
 ./getCal.php user.name "startdate" "enddate"
 
 e.g. ./getCal.php john.doe "2013-04-01" "2013-05-31"
+
+
+
+Written By
+Shumba Kwayo
