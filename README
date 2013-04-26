@@ -23,7 +23,5 @@ The file to run in order to get your data back is getCal.php viz:
 e.g. ./getCal.php john.doe "2013-04-01" "2013-05-31"
 
 
-
-Written By
 Shumba Kwayo
 April 25, 2013
